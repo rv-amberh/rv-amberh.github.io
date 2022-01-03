@@ -75,4 +75,4 @@
   clonesWidth = getClonesWidth();
 }
 
-onLoad()
+onLoad();
