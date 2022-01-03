@@ -128,12 +128,27 @@ section.home {
   width: 100%; 
 }
 
+
+p:after {
+   content: none;
+}
+
 /*Search Page*/
 
-.container {
-	padding-top: 200px;
-	z-index: 1;
+
+
+#products.row {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	top: 250px;
+	
 }
+
+#products.row:before {
+	content:none;
+}
+
 .product {
 	margin-bottom: 30px;
 }
@@ -152,10 +167,7 @@ section.home {
 }
 
 .col-sm-4 {
-	display: grid;
-	grid-template-columns: repeat(3, 300px);
-        padding: 30px;
-	align-items: center;
+    padding: 30px;
 	padding: 0 20px;
 	max-width: 350px;
 	min-width: 300px;
@@ -192,6 +204,7 @@ section.home {
 	left: 20px;
 	margin: 0;
 	padding: 0;
+	top: 200px;
 }
 
 #search input {
@@ -206,6 +219,7 @@ section.home {
 	position: relative;
 	left: 35px;
 	width: 600px;
+	top:220px;
 }
 
 option {
@@ -215,6 +229,37 @@ option {
 .main-img {
 	position: absolute;
 	left: 750px;
-} 
+ } 
+
+/*Media Queries*/
 
 
+@media (max-width: 800px) {
+  
+.col-sm-4 {
+	display: grid;
+	grid-template-columns: repeat(1, 300px);
+	align-items: center;
+	max-width: 350px;
+	min-width: 300px;
+	top: 50px;
+	left: 30px;
+        }
+	
+#search {
+	width: 300px;
+}
+	
+.btn {
+	width: 75px;
+	position: relative;
+	right: 20px;
+	background-color: var(--primary-color);
+	border:none;
+}	
+#filter {
+	position: relative;
+	left: 35px;
+	width: 300px;
+ }
+}
