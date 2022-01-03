@@ -22,7 +22,7 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: auto;
+  height: 100vh;
   max-width: 100%;
 }
 
