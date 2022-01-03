@@ -240,17 +240,17 @@ p {
    margin-bottom: 200px;
 }
 
-#featured-title:hover {
+#featured-title:hover{
   position: relative;
-  top: 375px;
-  margin: 0;
+  top: 405px;
   padding: 0;
   left: 40px;
-   font-size: 3rem;
-   padding-bottom: 10px;
+  font-size: 3rem;
+   padding-bottom: 0px;
    border-bottom: groove red;
    width: 250px;
    max-width: 250px;
+   margin-bottom: 200px;
    color: green;
 }
 
@@ -295,24 +295,26 @@ p {
   top: 405px;
   padding: 0;
   left: 40px;
-  font-size: 3rem;
+  font-size: 1.5rem;
    padding-bottom: 0px;
    border-bottom: groove red;
    width: 250px;
    max-width: 250px;
    margin-bottom: 200px;
 }
- #featured-title:hover{
+
+#featured-title:hover{
   position: relative;
   top: 405px;
   padding: 0;
   left: 40px;
-  font-size: 3rem;
+  font-size: 1.5rem;
    padding-bottom: 0px;
-   border-bottom: groove green;
+   border-bottom: groove red;
    width: 250px;
    max-width: 250px;
    margin-bottom: 200px;
+   color: green;
 }
 
 }
