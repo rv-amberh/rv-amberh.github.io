@@ -11,11 +11,13 @@
   margin:0;
   padding:0;
 }
+
 html {
   background: url("https://assets.codepen.io/7067207/Home+page+Backgground+2.png") no-repeat center center fixed;
   background-size: cover;
-  overflow: hidden;
+  overflow: auto;
 }
+
 html, 
 body {
   font-family: 'Oswald', sans-serif;
@@ -23,6 +25,11 @@ body {
   height: auto;
   max-width: 100%;
 }
+
+body{
+  background: none;
+}
+
 .btn {
   cursor: pointer;
   display: inline-block;
