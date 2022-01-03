@@ -129,9 +129,6 @@ section.home {
 }
 
 
-p:after {
-   content: none;
-}
 
 /*Search Page*/
 
@@ -142,7 +139,7 @@ p:after {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	top: 250px;
-	
+	left: 90px;
 }
 
 #products.row:before {
@@ -198,7 +195,7 @@ p:after {
 	border:none;
 }
 
-#search {
+#search.row {
 	position: relative;
 	width: 600px;
 	left: 20px;
@@ -206,6 +203,19 @@ p:after {
 	padding: 0;
 	top: 200px;
 }
+
+#search:before {
+	content:none;
+}
+
+#search.row:after {
+	content:none;
+}
+
+#filter.row:before {
+	content:none;
+}
+
 
 #search input {
 	color: red;
@@ -261,5 +271,5 @@ option {
 	position: relative;
 	left: 35px;
 	width: 300px;
- }
+}
 }
