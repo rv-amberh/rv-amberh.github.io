@@ -46,8 +46,7 @@ section.home {
   background: var(--primary-color);
   color: white;
   text-decoration: none;
-  padding: 10px 30px;
-  margin: 20px 0;
+  padding: 5px 20px;
   }
 
 .btn:hover {
@@ -185,6 +184,7 @@ p {
   width: 100%;
   height: 300px;
   overflow: hidden;
+  margin: 40px 0;
 }
 
 .slider {
@@ -220,23 +220,24 @@ p {
   position: relative;
   display: grid;
   gap: 40px;
-  top: 400px;
+  top: 500px;
   left: 100px;
   height: 300px;
   width: 500px;
+  margin-top: 100px;
 }
 
 #featured-title{
   position: relative;
-  top: 375px;
-  margin: 0;
+  top: 575px;
   padding: 0;
   left: 40px;
   font-size: 3rem;
-   padding-bottom: 10px;
+   padding-bottom: 0px;
    border-bottom: groove red;
    width: 250px;
    max-width: 250px;
+   margin-bottom: 200px;
 }
 
 #featured-title:hover {
@@ -290,15 +291,15 @@ p {
 }
 
 #featured-title{
-  position: relative;
-  top: 375px;
-  margin: 0;
-  padding: 0;
-  left: 30px;
-   font-size: 2.5rem;
-   padding-bottom: 10px;
-   border-bottom: groove red;
-   width: 125x;
-   max-width: 250px;
+      position: relative;
+      top: 455px;
+      margin: 0;
+      padding: 0;
+      left: 30px;
+     font-size: 2.5rem;
+     padding-bottom: 10px;
+     border-bottom: groove red;
+     width: 125x;
+     max-width: 250px;
 }
 }
