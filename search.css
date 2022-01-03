@@ -154,7 +154,7 @@ section.home {
 .col-sm-4 {
 	display: grid;
 	grid-template-columns: repeat(3, 300px);
-    padding: 30px;
+        padding: 30px;
 	align-items: center;
 	padding: 0 20px;
 	max-width: 350px;
@@ -215,7 +215,7 @@ option {
 .main-img {
 	position: absolute;
 	left: 750px;
- } 
+} 
 
 /*Media Queries*/
 
@@ -231,10 +231,10 @@ option {
 	top: 50px;
 	left: 30px;
  }
- 	
+	
 #search {
 	width: 300px;
-  }
+	}
 	
 .btn {
 	width: 75px;
@@ -242,10 +242,10 @@ option {
 	right: 20px;
 	background-color: var(--primary-color);
 	border:none;
-  }	
+     }	
 #filter {
 	position: relative;
 	left: 35px;
 	width: 300px;
-  }
+        }
 }
