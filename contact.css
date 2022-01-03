@@ -20,8 +20,8 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: 100vh !important;
-  max-width: 100% !important;
+  height: auto;
+  max-width: 100%;
 }
 .btn {
   cursor: pointer;
