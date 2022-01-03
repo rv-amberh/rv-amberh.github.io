@@ -22,7 +22,7 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: 100vh;
+  height: 140%;
   max-width: 100%;
 }
 
@@ -175,7 +175,7 @@ p {
   top: 300px;
   left: 150px;
   display: grid;
-  grid-template-columns: repeat(2, 300px);
+  grid-template-columns: repeat(2, 3fr);
 }
 
 .title {
