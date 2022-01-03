@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
   --primary-color: #f60f20;
@@ -14,7 +14,7 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: 200%;
+  height: 140%;
   max-width: 100%;
 }
 
@@ -220,7 +220,7 @@ p {
   position: relative;
   display: grid;
   gap: 40px;
-  top: 500px;
+  top: 250px;
   left: 100px;
   height: 300px;
   width: 500px;
@@ -229,7 +229,7 @@ p {
 
 #featured-title{
   position: relative;
-  top: 575px;
+  top: 405px;
   padding: 0;
   left: 40px;
   font-size: 3rem;
