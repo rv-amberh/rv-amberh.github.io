@@ -19,21 +19,7 @@ body {
   margin: 0 auto;
   background-image: url("https://assets.codepen.io/7067207/shutterstock_1249979266+%283%29.jpg");
  background-size: 100px;
-
 }
-
-section {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  padding: 100px;
-}
-
-section.home {
-  flex-direction: row;
-  margin-top: 0;
-}
-
 
 .logo {
   position: absolute;
@@ -183,7 +169,8 @@ section.home {
 	border-outline: black;
 }
 
-.btn {
+.btn-primary {
+	position: relative;
 	width: 100px;
 	background-color: var(--primary-color);
 	border:none;
@@ -246,17 +233,7 @@ option {
 
 @media (max-width: 800px) {
   
-.col-sm-4 {
-	display: grid;
-	grid-template-columns: repeat(1, 300px);
-	align-items: center;
-	max-width: 350px;
-	min-width: 300px;
-	top: 50px;
-	left: 30px;
-        }
-	
-#search {
+ #search {
 	width: 300px;
 }
 	
