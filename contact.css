@@ -12,22 +12,22 @@
   padding:0;
 }
 
-html {
-  background: url("https://assets.codepen.io/7067207/Home+page+Backgground+2.png") no-repeat center center fixed;
-  background-size: cover;
-  overflow: auto;
-}
-
 html, 
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: 140%;
+  height: 160%;
   max-width: 100%;
 }
 
 body{
   background: none;
+}
+
+html {
+  background: url("https://assets.codepen.io/7067207/Home+page+Backgground+2.png") no-repeat center center fixed;
+  background-size: cover;
+  overflow: auto;
 }
 
 .btn {
@@ -256,7 +256,7 @@ p {
   width: 500px;
   left: 30px;
   margin-right: 80px;
-  height: 600px;
+  height: 100%;
 }
 
 .contact-form:hover {
@@ -315,7 +315,7 @@ p {
   cursor: pointer;
   width: 130px;
   left: 180px;
-  top: 155px;
+  top: 119px;
   margin-bottom: 5px;
   font-family: 'Oswald', sans-serif;
 }
