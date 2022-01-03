@@ -20,7 +20,7 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: 150% !important;
+  height: 100vh !important;
   max-width: 100% !important;
 }
 .btn {
