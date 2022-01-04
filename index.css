@@ -228,23 +228,28 @@ p {
  }
 
 .f-items {
-  position: relative;
+ position: relative;
   display: grid;
-  width: 500px;
-  left: 5%;
-  gap: 5%;
+   top: 33rem;
+   left: 3rem;
+   font-size: 2rem;
+   max-width: 100%;
+   margin-bottom: 5px;
+   color: black;
 }
 
 
 
 #featured-title {
-   position: relative;
-   left: 1rem;
-   margin-bottom: 7%;
-   font-size: 2rem;
+    position: relative;
+   top: 23rem;
+   left: 2rem;
+   font-size: 3rem;
    border-bottom: groove red;
-   width: 50%;
+   width: 18%;
    max-width: 100%;
+   margin-bottom: 20px;
+  color: black;
 }
 
 #featured-title:hover {
