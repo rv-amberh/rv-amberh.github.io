@@ -220,7 +220,7 @@ p {
 
 .featured {
   position: relative;
-   top: 12%;
+   top: 10%;
    position: relative;
    display: grid;
    width: 500px;
@@ -230,15 +230,19 @@ p {
 .f-items {
  position: relative;
   display: grid;
-   top: 33rem;
+  grid-template-rows: repeat(3, 200px);
+   top: 28rem;
    left: 3rem;
    font-size: 2rem;
    max-width: 100%;
-   margin-bottom: 5px;
    color: black;
 }
 
-
+.f-items h1 {
+  padding:0;
+  color: red;
+  line-height: 0;
+ }
 
 #featured-title {
     position: relative;
@@ -246,10 +250,10 @@ p {
    left: 2rem;
    font-size: 3rem;
    border-bottom: groove red;
-   width: 18%;
+   width: 50%;
    max-width: 100%;
    margin-bottom: 20px;
-  color: var(--primary-color);
+   color: #111;
 }
 
 
