@@ -249,20 +249,10 @@ p {
    width: 18%;
    max-width: 100%;
    margin-bottom: 20px;
-  color: black;
+  color: var(--primary-color);
 }
 
-#featured-title:hover {
-   position: relative;
-   top: 23rem;
-   left: 2rem;
-   font-size: 3rem;
-   border-bottom: groove red;
-   width: 18%;
-   max-width: 100%;
-   margin-bottom: 20px;
-  color: green;
-}
+
 
 /*Media Queries*/
 
@@ -322,15 +312,4 @@ p {
    max-width: 100%;
 }
 
-#featured-title:hover {
-   position: relative;
-   padding: 0;
-   left: 1rem;
-    margin-bottom: 7%;
-    font-size: 3rem;
-    border-bottom: groove red;
-    width: 50%;
-    max-width: 100%;
-    color: green;
-   }
 }
