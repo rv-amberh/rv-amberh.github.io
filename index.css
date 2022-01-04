@@ -47,7 +47,7 @@ section {
   text-decoration: none;
   padding: 20px;
   height: 2rem;
-  line-height: 3px;
+  line-height: 2.8px;
   }
 
 .btn:hover {
@@ -145,6 +145,7 @@ section {
   z-index: 11;
   max-width: 100%;
   position: relative;
+  top: 2rem;
   left: 4rem;
 }
 
@@ -181,7 +182,6 @@ p {
   height: 300px;
   overflow: hidden;
   margin: 50px 0;
-  top: 53rem;
 }
 
 .slider {
@@ -218,29 +218,34 @@ p {
 
 /*Featured*/ 
 
+.featured {
+  position: relative;
+   top: 12%;
+   position: relative;
+   display: grid;
+   width: 500px;
+   left: 5%;
+ }
+
 .f-items {
   position: relative;
   display: grid;
-  top: 15rem;
-  left: 4rem;
   width: 500px;
+  left: 5%;
+  gap: 5%;
 }
 
-.f-items h1 {
-  line-height: 0;
- margin-top: 2rem;
-}
 
-#featured-title{
+
+#featured-title {
    position: relative;
-   top: 23rem;
    padding: 0;
-   left: 2rem;
+   left: 1rem;
+   margin-bottom: 7%;
    font-size: 3rem;
    border-bottom: groove red;
-   width: 18%;
+   width: 50%;
    max-width: 100%;
-   margin-bottom: 12rem;
 }
 
 #featured-title:hover {
@@ -266,57 +271,63 @@ p {
   .logo {
     top: 20px;
     left: 40px;
- }
-  
-  section {
-    padding: 100px 40px;
+    font-size: 22px;
   }
+  
   .navigation ul li a {
     font-size: 2rem;
   }
   
-  h1, h2, p {
+  .home-content h1, h2, p {
+    position: relative;
+    color: black;
+    top: 0;
+    margin-right: 40px;
+  }
+  .home-content h1  {
     position: relative;
     color: red;
     top: 0;
   }
   
-  .f-items {
+  .featured {
+  position: relative;
+   top: 12%;
+   position: relative;
+   display: grid;
+   width: 500px;
+   left: 5%;
+ }
+
+.f-items {
   position: relative;
   display: grid;
-  top: 15rem;
-  left: 2rem;
   width: 250px;
+  left: 5%;
+  gap: 5%;
 }
 
-.f-items h1 {
-  line-height: 0;
- margin-top: 2rem;
-}
 
-#featured-title{
+#featured-title {
    position: relative;
-   top: 23rem;
    padding: 0;
-   left: 2rem;
+   left: 1rem;
+   margin-bottom: 7%;
    font-size: 3rem;
    border-bottom: groove red;
-   width: 45%;
+   width: 50%;
    max-width: 100%;
-   margin-bottom: 12rem;
 }
 
-#featured-title:hover{
+#featured-title:hover {
    position: relative;
-   top: 23rem;
    padding: 0;
-   left: 2rem;
-   font-size: 3rem;
-   border-bottom: groove red;
-   width: 45%;
-   max-width: 100%;
-   margin-bottom: 12rem;
-   color: green;
-}
-
+   left: 1rem;
+    margin-bottom: 7%;
+    font-size: 3rem;
+    border-bottom: groove red;
+    width: 50%;
+    max-width: 100%;
+    color: green;
+   }
 }
