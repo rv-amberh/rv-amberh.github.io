@@ -14,8 +14,20 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: 120% !important;
 }
+
+
+body{
+  background: none;
+}
+
+
+
+html {
+  background-image: url("https://assets.codepen.io/7067207/shutterstock_1249979266+%283%29.jpg");
+ background-size: 100px;
+}
+
 
 .btn {
   cursor: pointer;
@@ -122,7 +134,7 @@ body {
   color: grey;
   text-align: center;
   bottom: 0;
-  width: 100%;
+  width: 150%;
 }
 
 /* Product Detail*/
@@ -132,10 +144,11 @@ body {
    position: absolute;
     max-width: 1100px;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 400px);
     text-align: left;
     top: 18%;
-    left: 8%;
+    left: 280px;
+   padding: 100px;
 }
 
 
@@ -171,9 +184,11 @@ img{
     opacity: 0.8;
 }
 .product-content{
-    padding: 2rem 1rem;
+    padding: 20px;
     border: 3px solid rgba(0,0,0,0.05);
     box-shadow: 0 10px 30px rgba(3,3,3,0.3);
+   background-color: rgba(255, 255, 255, 0.8);
+  max-width: 100%;
   }
 
 .product-content:hover{
@@ -188,16 +203,11 @@ img{
     position: relative;
     color: #12263a;
     margin: 1rem 0;
+   border-bottom: 5px solid var(--primary-color);
+  
 }
-.product-title::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    width: 300px;
-    background: #12263a;
-}
+
+
 .product-link{
     text-decoration: none;
     text-transform: uppercase;
@@ -327,7 +337,9 @@ img{
     .product-content{
         padding-top: 0;
     }
-}
+
+
+
 
 /*Media Queries*/
 

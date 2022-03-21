@@ -1,78 +1,127 @@
 // Toggle and Navigation //
 
-  const toggle = document.querySelector('.toggle')
+const toggle = document.querySelector('.toggle')
 
-  const navigation = document.querySelector('.navigation')
+const navigation = document.querySelector('.navigation')
 
-  toggle.addEventListener('click', () => {
-    toggle.classList.toggle('active')
-    navigation.classList.toggle('active')
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('active')
+  navigation.classList.toggle('active')
 })
 
-  // Slider //
+//Slideshow//
 
-  let sliderWrap = document.querySelector('.slider-wrap');
-  let slider = document.querySelector('.slider');
-  let clonesWidth;
-  let sliderWidth;
-  let clones= [];
-  let disableScroll = false;
-  let scrollPos;
+const slider = document.querySelector(".items");
+      const slides = document.querySelectorAll(".item");
+      const button = document.querySelectorAll(".button");
 
-  let items = [...document.querySelectorAll('.slider-item')]
-  let images = [...document.querySelectorAll('.img-div')]
+      let current = 0;
+      let prev = 4;
+      let next = 1;
 
-  images.forEach ((image, idx) => {
-    image.style.backgroundImage = `url(https://assets.codepen.io/7067207/IMG-0055.JPG)`
-})
+      for (let i = 0; i < button.length; i++) {
+          button[i].addEventListener("click", () => i == 0 ? gotoPrev() : gotoNext());
+      }
 
-   items.forEach(item => {
-    let clone = item.cloneNode(true);
-      clone.classList.add('clone');
-      slider.appendChild(clone);
-      clones.push(clone);
-})
+      const gotoPrev = () => current > 0 ? gotoNum(current - 1) : gotoNum(slides.length - 1);
 
-  function getClonesWidth(){
-    let width = 0;
-    clones.forEach(clone => {
-      width += clone.offsetWidth;
-})
-    return width;
-}
+      const gotoNext = () => current < 4 ? gotoNum(current + 1) : gotoNum(0);
 
-  function getScrollPos(){
-     return window.scrollY;
-}
+      const gotoNum = number => {
+          current = number;
+          prev = current - 1;
+          next = current + 1;
 
-   function scrollUpdate(){
-     if(window.innerWidth < 0){
-     sliderWrap.style.overflow = 'hidden';
-    scrollPos = getScrollPos();
-    if(clonesWidth + scrollPos >= sliderWidth){
-     window.scrollTo({top: 1});
-     }else if(scrollPos <= 0){
-     window.scrollTo({top: sliderWidth - clonesWidth - 1})
- }
+          for (let i = 0; i < slides.length; i++) {
+              slides[i].classList.remove("active");
+              slides[i].classList.remove("prev");
+              slides[i].classList.remove("next");
+          }
 
-    slider.style.transform = `translateX(${-window.scrollY}px)`
+          if (next == 5) {
+              next = 0;
+          }
 
-    requestAnimationFrame(scrollUpdate)
-   }else{sliderWrap.style.overflow = 'scroll';
-     
- }
-}
+          if (prev == -1) {
+              prev = 4;
+          }
 
-  function onLoad(){
-  calculateDimensions()
-   document.body.style.height = `${sliderWidth}px`
-   window.scrollTo({top: 1});
-  scrollUpdate();
-}
+          slides[current].classList.add("active");
+          slides[prev].classList.add("prev");
+          slides[next].classList.add("next");
+      }
 
- function calculateDimensions(){
-  sliderWidth = slider.getBoundingClientRect().width;
-  clonesWidth = getClonesWidth();
-}
+  //Products
+  
+products = [
+  {
+      "image": "https://assets.codepen.io/7067207/The+Motherboard.JPG",
+      "title": "Product title",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+      "price": "9,99"
+  },
+  {
+      "image": "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+      "title": "Product title",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+      "price": "9,99"
+  },
+  {
+      "image": "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+      "title": "Product title",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+      "price": "9,99"
+  }
+]
 
-onLoad();
+  
+  
+  
+  /*
+  We start our code with an ajax request to fetch the data
+  from the json file.
+*/
+// First i create a new xmlhttp-request object.
+// let http = new XMLHttpRequest();
+// the variable http holds now all methods and properties of the objct.
+
+//  next i prepare the request with the open() method.
+//  http.open('get', 'products.json', true);
+// the first argument sets the http method.
+// in the second argument we pass the file where our data lives.
+// and last the keyword true, sets the request to be async.
+
+// next i will send the request.
+// http.send();
+
+// Now i have to catch the response.
+// i will check the onload eventlistener.
+ //http.onload = function(){
+  // Inside the function i need to check the readystate and status properties.
+  //if(this.readyState == 4 && this.status == 200){
+      // if we have a successful response, i have to parse the json data
+      // and convert them to a javascript array.
+      //let products = JSON.parse(this.responseText);
+
+      // next i need an empty variable to add the incoming data.
+      let output = "";
+
+      // now i have to loop trough the products, and in every iteration
+      // i add an html template to the output variable.
+      for(let item of products){
+          output += `
+              <div class="product">
+                  <img src="${item.image}" alt="${item.image}">
+                  <p class="title">${item.title}</p>
+                  <p class="description">${item.description}</p>
+              <p class="price">${item.price}</p>
+              </div>
+          `;
+      }
+      /* and last i target the products container and add the data that the
+      output variable holds. */
+      document.querySelector(".products").innerHTML = output;
+  
+
+
+
