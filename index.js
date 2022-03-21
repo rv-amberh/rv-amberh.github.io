@@ -56,21 +56,21 @@ const slider = document.querySelector(".items");
 products = [
   {
       "image": "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-      "title": "Product title",
+      "title": "The MotherBoard",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-      "price": "9,99"
+      "price": "300"
+  },
+  {
+      "image": "https://assets.codepen.io/7067207/Revolution+in+Motion..JPG",
+      "title": "Revolution in Motion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+      "price": "400"
   },
   {
       "image": "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-      "title": "Product title",
+      "title": "Relative Conscious",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-      "price": "9,99"
-  },
-  {
-      "image": "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-      "title": "Product title",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-      "price": "9,99"
+      "price": "300"
   }
 ]
 
