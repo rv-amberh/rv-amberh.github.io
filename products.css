@@ -235,7 +235,7 @@ h1 {
   border-radius: 5%;
 }
 
-.product .title{
+.product .data-title{
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 20px;
@@ -244,14 +244,14 @@ h1 {
    color: #111;
 }
 
-.product .description{
+.product .data-description{
   color: #111;
 	padding: 0 20px 20px 20px;	
 	line-height: 22px;
   text-align: center;
 }
 
-.product .price{
+.product .data-price{
  text-align: center;
   color: var(--primary-color)
 }
