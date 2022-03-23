@@ -154,9 +154,8 @@ h1:hover {
   position: absolute;
   top: 130px;
   left: 60px;
-  font-size: 60px;
   font-weight: 500;
-  color: var(--primary-color);
+  color: yellow;
 }
 
 .title p {
