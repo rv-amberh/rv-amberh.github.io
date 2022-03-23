@@ -25,7 +25,7 @@ data = [
 	},
 	{
 		"name": "Gibson",
-		"price": 300,
+		"price": 400,
 		"type": "Digital",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
@@ -43,7 +43,7 @@ data = [
 	},
 	{
 		"name": "Gretsch",
-		"price": 300,
+		"price": 200,
 		"type": "Canvas",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
@@ -55,7 +55,7 @@ data = [
 	},
 	{
 		"name": "Gibson",
-		"price": 300,
+		"price": 100,
 		"type": "Poster",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	}
