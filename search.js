@@ -20,43 +20,43 @@ window.onLoad = showProducts(data);
 data = [
 	{
 		"make": "The MotherBoard",
-		"price": "skhdfbkds",
+		"price": "300",
 		"type": "Digital",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Gibson",
-		"price": "$300.00",
+		"price": "200",
 		"type": "Digital",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Fender",
-		"price": "$200.00",
+		"price": "200",
 		"type": "Photograph",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Fender",
-		"price":"$300.00",
+		"price":"400",
 		"type": "Photograph",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Gretsch",
-		"price": "$300.00",
+		"price": "300",
 		"type": "Canvas",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Paul Reed Smith",
-		"price": "$400.00",
+		"price": "300",
 		"type": "Canvas",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Gibson",
-		"price": "$700.00",
+		"price": "100",
 		"type": "Poster",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	}
@@ -69,7 +69,7 @@ data = [
 
 //Products//
 
-function showProducts(data) {
+function showProducts(products) {
 
 var products = "",
     makes = "",
