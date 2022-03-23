@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
  <head>
     <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-	 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 	  <link rel="stylesheet" href="search.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
         <script src="search.js" defer></script>  
@@ -63,37 +62,19 @@
    <div class="row" id="filter">
      <form>
        <div class="form-group col-sm-3 col-xs-6">
-         <select data-filter="make" class="filter-make filter form-control">
-           <option value="">Select Make</option>
-           <option value="">Show All</option>
-         </select>
-       </div>
-       <div class="form-group col-sm-3 col-xs-6">
-         <select data-filter="type" class="filter-type filter form-control">
-           <option value="">Select Type</option>
-           <option value="">Show All</option>
-         </select>
-       </div>
-       <div class="form-group col-sm-3 col-xs-6">
-         <select data-filter="price" class="filter-price filter form-control">
-           <option value="">Price Range</option>
-           <option value="">Show All</option>
+          <select data-filter="sortPrice" class="filter-sortPrice filter form-control">
+           <option value="">Sort Price</option>
+           <option value="asc">Ascending</option>
+           <option value="desc">Descending</option>
          </select>
        </div>
      </form>
    </div>
-   <div class="row" id="products">
-    </div>
+
+   <div class="row" id="products"> </div>
     
-    
-    
-    
-    
-    
-    
-    
-     <div class="mainFooter"> 
-       <footer> Copryright 2021</footer> 
-     </div>
+   <div class="mainFooter"> 
+     <footer> Copryright 2021</footer> 
+   </div>
   </body>	
  </html>
