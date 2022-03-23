@@ -136,7 +136,7 @@ $("#search-form").submit(function(e) {
 
 	$(".product").hide();
 	$(".product").each(function() {
-		var make = $(this).data("name").toLowerCase(),
+		var make = $(this).data("make").toLowerCase(),
     		   price = parseFloat($(this).data('price').substring(1)),
 		    type = $(this).data("type").toLowerCase();
 
