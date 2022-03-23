@@ -20,43 +20,43 @@ window.onLoad = showProducts(data);
 data = [
 	{
 		"make": "The MotherBoard",
-		"price": "300",
+		"price": 300,
 		"type": "Digital",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Gibson",
-		"price": "200",
+		"price": 300,
 		"type": "Digital",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Fender",
-		"price": "200",
+		"price": 300,
 		"type": "Photograph",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Fender",
-		"price":"400",
+		"price":300,
 		"type": "Photograph",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Gretsch",
-		"price": "300",
+		"price": 300,
 		"type": "Canvas",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Paul Reed Smith",
-		"price": "300",
+		"price": 300,
 		"type": "Canvas",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
 		"make": "Gibson",
-		"price": "100",
+		"price": 300,
 		"type": "Poster",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	}
@@ -90,6 +90,13 @@ var products = "",
 
   $("#products").html(products);
 }
+
+
+
+window.onLoad = showProducts(data);
+
+
+
 
 // we're going to use this for price sorting
 function compareFn(a,b) {
