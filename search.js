@@ -8,10 +8,10 @@
     navigation.classList.toggle('active')
 })
 
-
-fetch('http://localhost:8000/products')//
-      .then(resp => resp.json())//
-       .then(data => showProducts(data));//
+//
+//fetch('http://localhost:8000/products')//
+   //   .then(resp => resp.json())//
+     //  .then(data => showProducts(data));//
 
 
 
@@ -65,7 +65,7 @@ data = [
 
 
 
-
+window.onLoad = showProducts(products);
 
 //Products//
 
