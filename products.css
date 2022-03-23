@@ -261,7 +261,7 @@ h1:hover {
   border-radius: 5%;
 }
 
-.product .data-title {
+.product .title {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -274,14 +274,14 @@ h1:hover {
 a:link {
   text-decoration: none;
 }
-.product .data-description {
+.product .description {
   color: #111;
   padding: 0 20px 20px 20px;
   line-height: 22px;
   text-align: center;
 }
 
-.product .data-price {
+.product .price {
   text-align: center;
   color: var(--primary-color);
 }
