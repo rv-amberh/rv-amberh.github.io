@@ -54,7 +54,7 @@ products = [
     image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
     title: "Product title",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+      "Photography - Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
     price: "9,99"
   },
   {
