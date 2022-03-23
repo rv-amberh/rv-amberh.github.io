@@ -67,23 +67,6 @@ data = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Products//
 
 function showProducts(data) {
@@ -95,7 +78,7 @@ var products = "",
   for (var i = 0; i < data.length; i++) {
         console.log(data[i].make);
 
-	var make = data[i].make,
+	var make = data[i].name,
 		price = data[i].price,
 		type = data[i].type,
 		image = data[i].image;
