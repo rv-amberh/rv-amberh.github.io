@@ -9,9 +9,78 @@
 })
 
 
-fetch('http://localhost:8000/products')
-        .then(resp => resp.json())
-        .then(data => showProducts(data));
+//fetch('http://localhost:8000/products')//
+    //    .then(resp => resp.json())//
+      //  .then(data => showProducts(data));//
+
+
+products = [
+  {
+    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
+    title: "Product title",
+    description:
+      "Digital Art - Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+    title: "Product title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+    price: "9,99"
+  }
+];
+
+
 
 //Products//
 
