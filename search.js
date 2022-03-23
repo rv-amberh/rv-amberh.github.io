@@ -14,7 +14,6 @@
      //  .then(data => showProducts(data));//
 
 
-window.onLoad = showProducts(data);
 
 
 data = [
