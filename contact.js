@@ -12,11 +12,8 @@
 //Form Validation//
 
 function validateForm() {
-  let firstName = document.getElementById("firstName");
-  isNameValid(firstName.value);
-  firstName.value = "";
   
-  let lastName = document.getElementById("lastName");
+  let lastName = document.getElementById("name");
   isNameValid(lastName.value);
   lastName.value = "";
   
