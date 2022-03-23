@@ -37,9 +37,9 @@ toggle.addEventListener("click", () => {
 //let products = JSON.parse(this.responseText);
 
 // next i need an empty variable to add the incoming data.
-//fetch('http://localhost:8000/products')//
-   //     .then(resp => resp.json())//
-      //  .then(data => showProducts(data));//
+fetch('http://localhost:8000/products')//
+      .then(resp => resp.json())//
+        .then(data => showProducts(data));//
 
 
 
