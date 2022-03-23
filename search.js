@@ -14,71 +14,73 @@
       //  .then(data => showProducts(data));//
 
 
-products = [
-  {
-    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-    title: "Product title",
-    description:
-      "Digital Art - Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  },
-  {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
-  }
+
+
+
+data = [
+	{
+		"make": "The MotherBoard",
+		"price": "skhdfbkds",
+		"type": "Digital",
+		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
+	},
+	{
+		"make": "Gibson",
+		"price": "$300.00",
+		"type": "Digital",
+		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
+	},
+	{
+		"make": "Fender",
+		"price": "$200.00",
+		"type": "Photograph",
+		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
+	},
+	{
+		"make": "Fender",
+		"price":"$300.00",
+		"type": "Photograph",
+		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
+	},
+	{
+		"make": "Gretsch",
+		"price": "$300.00",
+		"type": "Canvas",
+		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
+	},
+	{
+		"make": "Paul Reed Smith",
+		"price": "$400.00",
+		"type": "Canvas",
+		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
+	},
+	{
+		"make": "Gibson",
+		"price": "$700.00",
+		"type": "Poster",
+		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
+	}
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,11 +93,11 @@ var products = "",
 	types = "";
 
   for (var i = 0; i < data.length; i++) {
-        console.log(data[i].name);
+        console.log(data[i].make);
 
-	var make = data[i].name,
+	var make = data[i].make,
 		price = data[i].price,
-		type = data[i].description,
+		type = data[i].type,
 		image = data[i].image;
 	
 	//create product cards
