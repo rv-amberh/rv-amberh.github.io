@@ -62,10 +62,6 @@ data = [
 ];
 
 
-
-
-
-
 //Products//
 
 function showProducts(products) {
@@ -136,8 +132,7 @@ $("#search-form").submit(function(e) {
 
 	$(".product").hide();
 	$(".product").each(function() {
-		var make = $(this).data("make").toLowerCase(),
-    		   price = parseFloat($(this).data('price').substring(1)),
+		var make = $(this).data("make").toLowerCase()
 		    type = $(this).data("type").toLowerCase();
 
 		if (make.indexOf(query) > -1 || type.indexOf(query) > -1) {
