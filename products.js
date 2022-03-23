@@ -41,7 +41,6 @@ toggle.addEventListener("click", () => {
    //   .then(resp => resp.json())//
    //     .then(data => showProducts(data));//
 
-window.onLoad = showProducts(data);
 
 products = [
   {
@@ -109,6 +108,8 @@ products = [
   }
 ];
 
+
+window.onLoad = showProducts(products);
 
 function showProducts(products) {
   let output = "";
