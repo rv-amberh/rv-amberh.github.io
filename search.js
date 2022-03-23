@@ -18,43 +18,43 @@
 
 data = [
 	{
-		"make": "The MotherBoard",
+		"name": "The MotherBoard",
 		"price": 300,
 		"type": "Digital",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
-		"make": "Gibson",
+		"name": "Gibson",
 		"price": 300,
 		"type": "Digital",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
-		"make": "Fender",
+		"name": "Fender",
 		"price": 300,
 		"type": "Photograph",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
-		"make": "Fender",
+		"name": "Fender",
 		"price":300,
 		"type": "Photograph",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
-		"make": "Gretsch",
+		"name": "Gretsch",
 		"price": 300,
 		"type": "Canvas",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
-		"make": "Paul Reed Smith",
+		"name": "Paul Reed Smith",
 		"price": 300,
 		"type": "Canvas",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
 	},
 	{
-		"make": "Gibson",
+		"name": "Gibson",
 		"price": 300,
 		"type": "Poster",
 		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
