@@ -14,7 +14,6 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: #111;
-  height: 125% !important;
   max-width: 100% !important;
   margin: 0 auto;
   background-image: url("https://assets.codepen.io/7067207/shutterstock_1249979266+%283%29.jpg");
@@ -126,6 +125,7 @@ body {
 	grid-template-columns: repeat(3, 300px);
 	top: 250px;
 	left: 190px;
+	margin-bottom: 30px;
 }
 
 #products.row:before {
