@@ -17,48 +17,69 @@
 
 
 data = [
-	{
-		"name": "The MotherBoard",
-		"price": 300,
-		"type": "Digital",
-		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
-	},
-	{
-		"name": "Gibson",
-		"price": 400,
-		"type": "Digital",
-		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
-	},
-	{
-		"name": "Fender",
-		"price": 300,
-		"type": "Photograph",
-		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
-	},
-	{
-		"name": "Fender",
-		"price":300,
-		"type": "Photograph",
-		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
-	},
-	{
-		"name": "Gretsch",
-		"price": 200,
-		"type": "Canvas",
-		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
-	},
-	{
-		"name": "Paul Reed Smith",
-		"price": 300,
-		"type": "Canvas",
-		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
-	},
-	{
-		"name": "Gibson",
-		"price": 100,
-		"type": "Poster",
-		"image": "https://assets.codepen.io/7067207/IMG-4486.jpg"
-	}
+  {
+    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
+    title: "The Motherboard",
+    description:
+      "Digital Art",
+    price: "300"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
+    title: "Relative Conscious",
+    description:
+      "Digital Art",
+    price: "200"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Revolution+in+Motion..JPG",
+    title: "Revolution in Motion",
+    description:
+      "Photography",
+    price: "200"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Juneteenth.JPG",
+    title: "Juneteenth",
+    description:
+      "Digital Art",
+    price: "500"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Circa+2020..jpg",
+    title: "Circa 2020",
+    description:
+      "Photography",
+    price: "600"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/SunFlower.JPG",
+    title: "SunFlower",
+    description:
+      "Digital Art",
+    price: "200"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Summer+of+Soul.jpg",
+    title: "Summer of Soul",
+    description:
+      "Photography",
+    price: "300"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Summer+of+2020.JPG",
+    title: "Summer of 2020",
+    description:
+      "Photography",
+    price: "300"
+  },
+  {
+    image: "https://assets.codepen.io/7067207/Healed+and+Home.JPG",
+    title: "Healed and Home",
+    description:
+      "Digital Art",
+    price: "100"
+  }
 ];
 
 
