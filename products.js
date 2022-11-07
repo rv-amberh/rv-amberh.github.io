@@ -16,70 +16,68 @@ toggle.addEventListener("click", () => {
 products = [
   {
     image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-    title: "Product title",
+    title: "The Motherboard",
     description:
-      "Digital Art - Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Digital Art",
+    price: "300"
   },
   {
     image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
+    title: "Relative Conscious",
     description:
-      "Photography - Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Digital Art",
+    price: "200"
   },
   {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
+    image: "https://assets.codepen.io/7067207/Revolution+in+Motion..JPG",
+    title: "Revolution in Motion",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Photography",
+    price: "200"
   },
   {
-    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-    title: "Product title",
+    image: "https://assets.codepen.io/7067207/Juneteenth.JPG",
+    title: "Juneteenth",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Digital Art",
+    price: "500"
   },
   {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
+    image: "https://assets.codepen.io/7067207/Circa+2020..jpg",
+    title: "Circa 2020",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Photography",
+    price: "600"
   },
   {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
+    image: "https://assets.codepen.io/7067207/SunFlower.JPG",
+    title: "SunFlower",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Digital Art",
+    price: "200"
   },
   {
-    image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-    title: "Product title",
+    image: "https://assets.codepen.io/7067207/Summer+of+Soul.jpg",
+    title: "Summer of Soul",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Photography",
+    price: "300"
   },
   {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
+    image: "https://assets.codepen.io/7067207/Summer+of+2020.JPG",
+    title: "Summer of 2020",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Photography",
+    price: "300"
   },
   {
-    image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Product title",
+    image: "https://assets.codepen.io/7067207/Healed+and+Home.JPG",
+    title: "Healed and Home",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-    price: "9,99"
+      "Digital Art",
+    price: "100"
   }
 ];
-
-
 window.onLoad = showProducts(products);
 
 function showProducts(products) {
