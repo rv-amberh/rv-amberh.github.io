@@ -19,64 +19,64 @@
 data = [
   {
     image: "https://assets.codepen.io/7067207/The+Motherboard.JPG",
-    title: "The Motherboard",
-    description:
+    name: "The Motherboard",
+    type:
       "Digital Art",
     price: "300"
   },
   {
     image: "https://assets.codepen.io/7067207/Relative+Conscious.JPG",
-    title: "Relative Conscious",
-    description:
+    name: "Relative Conscious",
+    type:
       "Digital Art",
     price: "200"
   },
   {
     image: "https://assets.codepen.io/7067207/Revolution+in+Motion..JPG",
-    title: "Revolution in Motion",
-    description:
+    name: "Revolution in Motion",
+    type:
       "Photography",
     price: "200"
   },
   {
     image: "https://assets.codepen.io/7067207/Juneteenth.JPG",
-    title: "Juneteenth",
-    description:
+    name: "Juneteenth",
+    type:
       "Digital Art",
     price: "500"
   },
   {
     image: "https://assets.codepen.io/7067207/Circa+2020..jpg",
-    title: "Circa 2020",
-    description:
+    name: "Circa 2020",
+    type:
       "Photography",
     price: "600"
   },
   {
     image: "https://assets.codepen.io/7067207/SunFlower.JPG",
-    title: "SunFlower",
-    description:
+    name: "SunFlower",
+    type:
       "Digital Art",
     price: "200"
   },
   {
     image: "https://assets.codepen.io/7067207/Summer+of+Soul.jpg",
-    title: "Summer of Soul",
-    description:
+    name: "Summer of Soul",
+    type:
       "Photography",
     price: "300"
   },
   {
     image: "https://assets.codepen.io/7067207/Summer+of+2020.JPG",
-    title: "Summer of 2020",
-    description:
+    name: "Summer of 2020",
+    type:
       "Photography",
     price: "300"
   },
   {
     image: "https://assets.codepen.io/7067207/Healed+and+Home.JPG",
-    title: "Healed and Home",
-    description:
+    name: "Healed and Home",
+    type:
       "Digital Art",
     price: "100"
   }
