@@ -1,88 +1,72 @@
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-   <script src="products.js" defer></script>  
-
-   <link rel="stylesheet" href="products.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <title>Home Page</title>
-</head>
-
-<body>
-  <header>
-    <div class="logo"> Well Fed Artist Co.
-    </div>
-
-    <div class="toggle"></div>
-
-    <div class="navigation">
-      <ul>
-        <li><a href="https://rv-amberh.github.io/index.html">Home</a></li>
-        <li><a href="https://rv-amberh.github.io/products.html">Art</a></li>
-        <li><a href="https://rv-amberh.github.io/contact.html">Contact</a></li>
-        <li><a href="https://rv-amberh.github.io/search.html">Search</a></li>
-      </ul>
-      <div class="social-bar">
-        <ul>
-          <li>
-            <a href="https://facebook.com">
-              <img src="https://assets.codepen.io/7067207/instagram.png" target="_blank" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com">
-              <img src="https://assets.codepen.io/7067207/instagram.png" target="_blank" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="https://instagram.com">
-              <img src="https://assets.codepen.io/7067207/instagram.png" target="_blank" alt="" />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-  <section>
-    <div class="title">
-      <h1> Welcome to my virtual gallery</h1>
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="products.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="products.js" defer></script>  
+  </head>
+  
+  
+  <body>
     
-      <p>
-        We are going to take a break from the videos this week and we're going to start building the front-end to our final project in the ecommerce directory.
-      </p>
-    </div>
+    <body>
+      <header>
+       <div class="logo"> Well Fed Artist Co.
+       </div>
+       
+       <div class="toggle"></div>
+       
+       <div class="navigation">
+         <ul>
+           <li><a href="http://localhost/index.html">Home</a></li>
+           <li><a href="http://localhost/products.html">Virtual Gallery</a></li>
+           <li><a href="http://localhost/search.html">Search</a></li>
+           <li><a href="http://localhost/details.html">Explore More</a></li>
+           <li><a href="http://localhost/contact.html">Contact</a></li>
+         </ul>        
+      <div class="social-bar">
+          <ul>
+            <li>
+              <a href="https://facebook.com">
+                <img src="https://assets.codepen.io/7067207/instagram.png" target="_blank" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </header>
 
-    <!--Product Cards-->
-
-    <div id="products"></div>
-
-  </section>
-
-  <!--Filter Box-->
-
-  <div class="check-me">
-    <p>Check me!</p>
-  </div>
-
-  <div id="filter-input-wrapper">
-    <div class="input-block">
-      <input value="digital" type="checkbox" id="digital" class="filter-input" name="filter" />
-      <label for="food" data-filter="description" class="filter-label filter">Digital Art</label>
-    </div>
-    <div class="input-block">
-      <input value="photography" type="checkbox" id="photography" class="filter-input" name="filter" />
-      <label for="photography" data-filter="description" class="filter-label filter">Photography</label>
-    </div>
-  </div>
-
-  <div class="main-footer">
-    <footer> Copryright 2021</footer>
-  </div>
-</body>
-
-</html>
+      <section>
+        <div class="title">
+          <h1> Welcome to my virtual gallery</h1>
+          <p>
+            Come take a look...
+          </p>
+        </div>
+    
+        <!--Product Cards-->
+    
+        <div id="products"></div>
+    
+      </section>
+    
+      <!--Filter Box-->
+    
+      <div id="filter-input-wrapper">
+        <div class="input-block">
+          <input value="digital" type="checkbox" id="digital" class="filter-input" name="filter" />
+          <label for="food" data-filter="description" class="filter-label filter">Digital Art</label>
+        </div>
+        <div class="input-block">
+          <input value="photography" type="checkbox" id="photography" class="filter-input" name="filter" />
+          <label for="photography" data-filter="description" class="filter-label filter">Photography</label>
+        </div>
+   
+  <div class="mainFooter"> 
+   <footer> Copryright 2021</footer> 
+  </div>    
+ </body>
+  </html>
